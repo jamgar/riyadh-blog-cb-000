@@ -6,9 +6,14 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /*background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+  background: DarkSlateBlue center; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(DarkSlateBlue, Lavender); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(DarkSlateBlue, Lavender); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(DarkSlateBlue, Lavender); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(DarkSlateBlue, Lavender); /* Standard syntax */
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
